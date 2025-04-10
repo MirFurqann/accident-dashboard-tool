@@ -1,0 +1,32 @@
+Accident Dashboard Tool
+=======================
+
+Overview
+--------
+This project is a one-page interactive Dash-based dashboard and machine learning workbench designed for analyzing UK-style road traffic accident datasets (~60,000 rows). It supports both geographical and statistical analysis and allows for real-time predictions based on user input.
+
+It includes features like data upload, preprocessing, dynamic filtering, a variety of visual analytics, animated visualizations, and ML-based severity and road type predictions.
+
+Key Features
+------------
+✔ CSV upload and automatic data cleaning  
+✔ Multi-select filters (Year, Severity, Weather, Light Condition, Road Type, Hour Period)  
+✔ Hourly histogram with animation by month  
+✔ Severity pie chart with time-based slider  
+✔ Animated severity bar chart by day period (Morning, Afternoon, Evening, Night)  
+✔ Interactive visualizations:  
+  • Road Type Distribution  
+  • Light & Weather Condition  
+  • Spatio-Temporal 3D Cube  
+✔ GIS Density Heatmap and Animated Day Period Map  
+✔ ML Workbench: Gradient Boosting classifier for Severity and Road Type  
+✔ Real-time prediction form with classification report
+
+Setup Instructions
+------------------
+
+1. Clone the Repository
+
+```bash
+git clone https://github.com/MirFurqann/accident-dashboard-tool.git
+cd accident-dashboard-tool
