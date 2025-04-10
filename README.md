@@ -21,18 +21,29 @@ It includes features like data upload, preprocessing, dynamic filtering, a varie
 
 Key Features
 ------------
-✔ CSV upload and automatic data cleaning  
-✔ Multi-select filters (Year, Severity, Weather, Light Condition, Road Type, Hour Period)  
-✔ Hourly histogram with animation by month  
-✔ Severity pie chart with time-based slider  
-✔ Animated severity bar chart by day period (Morning, Afternoon, Evening, Night)  
-✔ Interactive visualizations:  
-  • Road Type Distribution  
-  • Light & Weather Condition  
-  • Spatio-Temporal 3D Cube  
-✔ GIS Density Heatmap and Animated Day Period Map  
-✔ ML Workbench: Gradient Boosting classifier for Severity and Road Type  
-✔ Real-time prediction form with classification report
+📤 CSV Upload & Auto-Cleaning
+
+🔍 Multi-Select Filters: Year, Severity, Weather, Light, Road Type, Hour Period
+
+📊 Animated Hourly Histograms & Severity Charts
+
+📌 Interactive Visuals:
+
+Road Type, Light, Weather Distribution
+
+Spatio-Temporal 3D Cube
+
+GIS Density Heatmap
+
+🧠 ML Predictions (Severity + Road Type)
+
+📈 Live Classification Report with Evaluation Metrics
+
+🌀 Advanced Animated Visualizations:
+
+Animated Bar Race, 3D Scatter, Line Charts by Year & Hour
+
+GIS Map by Day Period (Morning, Afternoon, Evening, Night)
 
 Setup Instructions
 ------------------
@@ -42,3 +53,32 @@ Setup Instructions
 ```bash
 git clone https://github.com/MirFurqann/accident-dashboard-tool.git
 cd accident-dashboard-tool
+2. Install Dependencies
+
+If you're using pip, install the required packages with:
+
+            pip install -r requirements.txt
+
+Or if you're using Conda (recommended for Visual Studio / Anaconda users):
+
+            conda env create -f environment.yml
+            conda activate accident-dashboard-env
+
+3. Optional (Windows users only):
+
+You can run the setup.bat file by double-clicking it. This will:
+
+Create a virtual environment
+
+Activate it
+
+Install required packages
+
+4. Run the Application
+
+Once everything is installed, start the app by running:
+
+python accident_dashboard_app.py
+
+Then open your browser and go to:
+http://127.0.0.1:8050
