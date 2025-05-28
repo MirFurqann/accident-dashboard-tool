@@ -47,18 +47,18 @@ The original unbalanced dataset is also included as `Original_Road_Accident_Data
 ## Getting Started
 
 ### Clone the repository
-  git clone https://github.com/MirFurqann/accident-dashboard-tool.git
-  cd accident-dashboard-tool
+      git clone https://github.com/MirFurqann/accident-dashboard-tool.git
+      cd accident-dashboard-tool
   
 ### Set up environment using conda
-  conda env create -f environment.yml
-  conda activate accident-dashboard-env
-  Or simply double-click setup.bat (Windows users).
+      conda env create -f environment.yml
+      conda activate accident-dashboard-env
+      Or simply double-click setup.bat (Windows users).
 
 ### Running the Tool
-  python accident_dashboard_app.py
-  Then open your browser at:
-  http://127.0.0.1:8050
+      python accident_dashboard_app.py
+      Then open your browser at:
+      http://127.0.0.1:8050
 
 ### Git LFS Note (CSV files)
       The .csv files in this repository are stored using Git LFS due to their large size.
